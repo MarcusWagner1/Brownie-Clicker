@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\upgradeClasses">
+      <UniqueIdentifier>{95a7820c-3746-4fc5-9f2a-0ed57ed573ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chef.cpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="oven.cpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="secretFormula.cpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="goldenbrownie.cpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="trophy.cpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="upgradeSuper.cpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="gameBoardPreset.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameBoard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nullBlock.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="valBlock.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrapper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="upgradeSuper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chef.hpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="oven.hpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.hpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="secretformula.hpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="goldenbrownies.hpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="trophy.hpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="template.hpp">
+      <Filter>Header Files\upgradeClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
